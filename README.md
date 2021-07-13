@@ -24,7 +24,7 @@ Navigate to the bookreview-react-redux/bookreview-frontend.
 * cd ../bookreview-frontend
 cd npm start
 
-You should see the app from `localhost:3001`.
+You should see the app from `localhost:3000`.
  
 ### Usage
 
