@@ -10,19 +10,19 @@ const NavBar = () => {
         <div clanssName="nav">
             <Menu>
 
-                <Link to='' className='item'>
+                <Link to='/' className='item'>
                     Home
                 </Link>
 
-                <Link to='' className='book'>
+                <Link to='/books' className='book'>
                     View All Book Reviews
                 </Link>
 
-                <Link to=''> 
+                <Link to='/myStuff'> 
                     View My Book Reviews
                 </Link>
 
-                <Link to=''>
+                <Link to='/about'>
                     About
                 </Link>
 
