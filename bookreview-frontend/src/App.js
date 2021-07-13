@@ -7,7 +7,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import { Divider } from 'semantic-ui-react';
+
 
 class App extends React.Component {
 
