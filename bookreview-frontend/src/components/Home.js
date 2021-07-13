@@ -7,6 +7,12 @@ const Home = () => {
   <div className="Home">
      <Divider />
     <p>Home Page</p>
+    <br/>
+
+    <p>Some of the books you have read in your life, you have opnions about?</p>
+    <br/>
+    <p></p>
+    
   </div>
 )
 }
