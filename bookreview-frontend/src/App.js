@@ -3,19 +3,25 @@ import './App.css';
 
 import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      
-      
+import { Divider } from 'semantic-ui-react';
 
+class App extends React.Component {
 
+  render(){
+    return (
+      <div className="App">
+        
+        
+  
+  
+  
+  
+        <Footer/>
+  
+      </div>
+    );
+  }
 
-
-      <Footer/>
-
-    </div>
-  );
 }
 
 export default App;
