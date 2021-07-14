@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Form, Icon, Divider } from 'semantic-ui-react'
 
-class BookForm extends Component {
+export default class BookForm extends Component {
 
     handleOnChange = event => {
 
@@ -13,6 +13,7 @@ class BookForm extends Component {
 
     render(){
        
+     return (
         <Form>
 
             <Form.Group widths='equal'>
@@ -25,6 +26,7 @@ class BookForm extends Component {
 
         </Form>
 
+     )
     }
 
 }
