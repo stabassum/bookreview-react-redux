@@ -6,6 +6,7 @@ import About from './components/About';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import BookForm from './components/BookForm';
+import Login from './components/Login';
 
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -22,6 +23,12 @@ class App extends React.Component {
 
           <NavBar />
 
+          <br/>
+          <br/>
+
+          <Login/>
+          
+        
 
           <BookForm/>
 
