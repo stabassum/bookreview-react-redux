@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import BookForm from './components/BookForm';
 
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -20,6 +21,9 @@ class App extends React.Component {
 
 
           <NavBar />
+
+
+          <BookForm/>
 
           <Switch>
             <Route exact path="/" component={Home}/>
