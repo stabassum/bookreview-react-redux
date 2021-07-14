@@ -1,12 +1,11 @@
 import React from 'react';
-import { Divider, Icon } from 'semantic-ui-react';
 
 export default class Signup extends React.Component {
 
     render(){
         return (
             <div>
-                <Divider/>
+               
 
                 <form>
                     <div className="ui input">
@@ -23,7 +22,7 @@ export default class Signup extends React.Component {
                         <input placeholder="password"/>
                         <br/>
 
-                        <button></button>
+                        <button>Sign Up</button>
 
                     </div>
                 </form>

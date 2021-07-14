@@ -7,7 +7,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import BookForm from './components/BookForm';
 import Login from './components/Login';
-import Signup from './component/Signup'
+import Signup from './components/Signup';
 
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
