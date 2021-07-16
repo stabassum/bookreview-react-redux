@@ -1,2 +1,2 @@
-class BookOwnershipSerializer < ActiveModel:BookOwnershipSerializer
+class BookOwnershipSerializer < ActiveModel::Serializer
 end

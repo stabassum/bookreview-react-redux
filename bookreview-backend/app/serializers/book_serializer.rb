@@ -1,2 +1,2 @@
-class BookSerializer < ActiveModel::BookSerializer
+class BookSerializer < ActiveModel::Serializer
 end
