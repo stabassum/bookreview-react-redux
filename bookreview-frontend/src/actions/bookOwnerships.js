@@ -13,3 +13,12 @@ export const setBooksOwnerships = (bookOwnership, user, book) => {
         book
     }
 }
+
+export const removeToyOwnership = (bookOwnership, user, book) => {
+    return {
+        type: "REMOVE_BOOK_OWNERSHIP_SUCCESS",
+        bookOwnership,
+        user,
+        book
+    }
+}
