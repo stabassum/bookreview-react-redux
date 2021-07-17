@@ -21,6 +21,9 @@ export default class Login extends React.Component {
             <button className="button button-login" type="submit" value="Log In" > <Icon name="sign in" /> Log in </button>
             
             <br/>
+            <br/>
+            <p>Don't have an account? <a href="Signup.js">Signup</a> </p>
+            <br/>
 
              </div>
             </form>
