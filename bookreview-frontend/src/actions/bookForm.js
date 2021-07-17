@@ -7,6 +7,6 @@ export const updateBookFormData = bookFormData => {
 
 export const resetBookForm = () => {
     return {
-        type: 'RESET_BOOK_FORM'
+        type: 'RESET_BOOK_FORM',
     }
 }
