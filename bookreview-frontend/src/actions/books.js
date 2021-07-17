@@ -4,3 +4,10 @@ export const fetchBooksSuccess = books => {
         books
     }
 }
+
+export const addBook = book => {
+    return {
+        type: "CREATE_BOOK_SUCCESS",
+        book
+    }
+}
