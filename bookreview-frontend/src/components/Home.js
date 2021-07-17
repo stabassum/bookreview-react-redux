@@ -9,7 +9,8 @@ const Home = () => {
     <p>Home Page</p>
     <br/>
 
-    <p>Some of the books you have read in your life, you have opnions about?</p>
+    <p>Some of the books you have read in your school or personal, would you like to keep track of them and review them?</p>
+    <p>"Book Review" is the perfect place to keep track of your book memories and readings so you can go back and see them in a set location!</p>
     <br/>
     <p></p>
     
