@@ -4,3 +4,12 @@ export const setBookOwnerships = (bookOwnerships) => {
         bookOwnerships
     }
 }
+
+export const setBooksOwnerships = (bookOwnership, user, book) => {
+    return {
+        type: "ADD_BOOK_OWNERSHIP_SUCCESS",
+        bookOwnership,
+        user,
+        book
+    }
+}
