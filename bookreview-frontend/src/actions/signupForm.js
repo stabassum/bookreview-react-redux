@@ -2,7 +2,7 @@
 
 export const updateSignupForm = formData => {
     return {
-        type: "UPDATE_SIGUP_FORM",
+        type: "UPDATE_SIGNUP_FORM",
         formData
     }
 }
