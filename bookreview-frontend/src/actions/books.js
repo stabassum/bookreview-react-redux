@@ -13,3 +13,18 @@ export const addBook = book => {
         book
     }
 }
+
+export const createToy = book => {
+    return dispatch => {
+        return fetch("http://localhost:3000/books", {
+            method: "POST",
+            headers: {"Content-Type":"application/json"},
+            body: JSON.stringify(book)
+        })
+        .then(r => r.json())
+        .then(book => {
+            dispatch(addBook(book));
+            dispatch(resetBookForm());
+        })
+    }
+}
