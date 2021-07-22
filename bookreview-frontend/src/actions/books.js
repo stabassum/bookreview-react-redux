@@ -14,6 +14,10 @@ export const addBook = book => {
     }
 }
 
+export const getAllBooks = () => {
+    
+}
+
 export const createToy = book => {
     return dispatch => {
         return fetch("http://localhost:3000/books", {
