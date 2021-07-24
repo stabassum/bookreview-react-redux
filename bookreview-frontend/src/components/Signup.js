@@ -11,17 +11,17 @@ export default class Signup extends React.Component {
                 <form>
                     <div className="ui input">
 
-                        <label>Username:</label>
+                        <label>Username: </label>
                         <input placeholder="username"/>
                         <br/>
                         <br/>
 
-                        <label>Email:</label>
+                        <label>Email: </label>
                         <input placeholder="email"/>
                         <br/>
                         <br/>
 
-                        <label>Password:</label>
+                        <label>Password: </label>
                         <input placeholder="password"/>
                         <br/>
                         <br/>
