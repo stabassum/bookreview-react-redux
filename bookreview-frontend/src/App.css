@@ -11,6 +11,11 @@ h3{
   color: #519d90;
 }
 
+div.ui.menu {
+  background-color: #de7e30;
+  font-size: 16px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
