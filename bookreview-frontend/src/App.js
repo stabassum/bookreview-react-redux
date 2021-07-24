@@ -11,7 +11,6 @@ import Signup from './components/Signup';
 
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
-
 class App extends React.Component {
 
   render(){
@@ -20,7 +19,6 @@ class App extends React.Component {
       <div className="App">
 
         <Router>
-
 
           <NavBar />
           
