@@ -26,14 +26,10 @@ class App extends React.Component {
           
           <h3>Book Review!</h3>
        
-          <br/>
-          <br/>
-
           <Login/>
           
           <Signup/>
         
-
           <BookForm/>
 
           <Switch>
