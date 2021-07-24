@@ -23,6 +23,8 @@ class App extends React.Component {
 
 
           <NavBar />
+          
+          <h3>Book Review!</h3>
 
           <br/>
           <br/>
