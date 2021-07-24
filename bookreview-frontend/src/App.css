@@ -3,13 +3,14 @@
   font-family: 'Rajdhani', sans-serif;
 }
 
-h3{
+h3 {
   /* font-family: 'Monoton', cursive; */
   font-family: 'Rajdhani', sans-serif;
   font-style: bold;
   font-size: 40px;
   color: #519d90;
 }
+
 
 div.ui.menu {
   background-color: #de7e30;
