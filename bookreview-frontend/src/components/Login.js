@@ -7,6 +7,8 @@ export default class Login extends React.Component {
             <div>
             <Divider />
 
+            <h4>Login</h4>
+
             <form>
             
             <div className="ui input">

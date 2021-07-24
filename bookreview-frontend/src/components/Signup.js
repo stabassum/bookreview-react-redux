@@ -6,6 +6,7 @@ export default class Signup extends React.Component {
         return (
             <div>
                
+               <h4>Signup</h4>
 
                 <form>
                     <div className="ui input">

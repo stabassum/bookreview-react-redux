@@ -14,6 +14,11 @@ export default class BookForm extends Component {
     render(){
        
      return (
+
+       <div>
+
+        <h4>Add Book</h4>  
+
         <Form>
 
             <Form.Group widths='equal'>
@@ -29,6 +34,8 @@ export default class BookForm extends Component {
             <button>Add Book Review</button>
 
         </Form>
+
+        </div>
 
      )
     }
