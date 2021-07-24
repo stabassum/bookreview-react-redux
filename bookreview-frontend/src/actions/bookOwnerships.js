@@ -22,3 +22,4 @@ export const removeToyOwnership = (bookOwnership, user, book) => {
         book
     }
 }
+

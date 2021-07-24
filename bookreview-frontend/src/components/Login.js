@@ -10,7 +10,10 @@ export default class Login extends React.Component {
             <form>
             
             <div className="ui input">
-            
+
+            <p>Please login or <a href="Signup.js">Signup</a> to use <b>Book Review</b></p>
+            <br/>
+
             <label>Username</label>
             <input placeholder="user name"  name="username" type="text" />
            
@@ -22,8 +25,7 @@ export default class Login extends React.Component {
             
             <br/>
             <br/>
-            <p>Don't have an account? <a href="Signup.js">Signup</a> </p>
-            <br/>
+
 
              </div>
             </form>
