@@ -11,6 +11,13 @@ h3 {
   color: #519d90;
 }
 
+h4 {
+  font-family: 'Rajdhani', sans-serif;
+  font-style: bold;
+  font-size: 25px;
+  color: #519d90;
+}
+
 div.ui.menu {
   background-color: #de7e30;
   padding-top: 20px;

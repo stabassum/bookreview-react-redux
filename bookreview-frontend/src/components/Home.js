@@ -6,7 +6,7 @@ const Home = () => {
 
   <div className="Home">
      <Divider />
-    <p>Home Page</p>
+    <h4>Home Page</h4>
     <br/>
 
     <p>Some of the books you have read in your school or personal, would you like to keep track of them and review them?</p>

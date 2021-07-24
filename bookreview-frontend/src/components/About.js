@@ -4,7 +4,7 @@ const About = () => {
 
   return (
     <div>
-        <p>About</p>
+        <h4>About</h4>
 
         <br/>
         <p>"Book Review" will allo users to keep track of books that a reader feels important to keep track of.</p>
