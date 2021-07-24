@@ -18,8 +18,12 @@ export default class BookForm extends Component {
 
             <Form.Group widths='equal'>
                 <Form.Input fluid label='Title' placeholder='Name'/>
+                <br/>
+                
                 <Form.Input fluid label='Author' placeholder='Author'/>
+                <br/>
                 <Form.Input fluid label='Review' placeholder='Review'/>
+                <br/>
             </Form.Group>
 
             <button>Add Book Review</button>

@@ -13,9 +13,11 @@ export default class Signup extends React.Component {
                         <label>Username:</label>
                         <input placeholder="username"/>
                         <br/>
+                        <br/>
 
                         <label>Email:</label>
                         <input placeholder="email"/>
+                        <br/>
                         <br/>
 
                         <label>Password:</label>
