@@ -33,22 +33,18 @@ export const clearCurrentUser = () => {
     };
 }
 
-export const clearCurrentUser = () => {
-    return {
-        type: "CLEAR_CURRENT_USER"
-    };
-};
-
 export const login = credentials => {
-    return dispatch => {
-        return fetch()
-        .then()
-        .then();
-    };
-};
+ 
+}
 
 export const logout = () => {
-    return dispatch => {
-        
-    }
+
+}
+
+export const getMyBooks = user => {
+
+}
+
+export const signup = credentials => {
+
 }
