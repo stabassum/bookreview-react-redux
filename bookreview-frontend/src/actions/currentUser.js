@@ -10,3 +10,45 @@ export const setCurrentUser = (user, books) => {
         books
     }
 } 
+
+export const setMyBooks = (user, books) => {
+    return {
+         type: "GET_USER_TOYS_SUCCESS",
+         user,
+         books
+    };
+};
+
+export const markAsClaimed = (user, books) => {
+    return {
+        type: "MARK_AS_CLAIMED",
+        user,
+        books
+    };
+};
+
+export const clearCurrentUser = () => {
+    return {
+        type: "CLEAR_CURRENT_USER"
+    };
+}
+
+export const clearCurrentUser = () => {
+    return {
+        type: "CLEAR_CURRENT_USER"
+    };
+};
+
+export const login = credentials => {
+    return dispatch => {
+        return fetch()
+        .then()
+        .then();
+    };
+};
+
+export const logout = () => {
+    return dispatch => {
+        
+    }
+}
