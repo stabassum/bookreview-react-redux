@@ -1,3 +1,37 @@
+# React-Redux Portfolio Project
+This project is a Single Page Application (SPA) that uses a Rails API back-end and a JavaScript + HTML + CSS front-end per assignment specifications.
+
+## Project File Structure
+```
+bookreview-react-redux
+├── bookreview-backend
+│   ├── app
+│   │   ├── controllers
+│   │   │   ├── book_ownerships_controller.rb
+│   │   │   └── books_controller.rb
+│   │   │   └── sessions_controller.rb
+│   │   │   └── users_controller.rb
+│   │   ├── models
+│   │   │   ├──book.rb
+│   │   │   ├──book_ownership.rb
+│   │   │   └──user.rb
+│   │   └── views
+│   └── db
+│       └── migrate 
+│           ├── 001_create_users.rb
+│           └── 002_create_books.rb
+│           └── 003_create_book_ownerships.rb
+│
+├── bookreview-frontend
+│   ├── src
+│   │   └── actions
+│   │   └── components
+│   │   └── containers
+│   │   └── reducers
+│   ├── App.js  
+│   └── index.js
+└── README.md
+
 # Book Review
 ## README
 ### Description
@@ -25,7 +59,3 @@ Navigate to the bookreview-react-redux/bookreview-frontend.
 cd npm start
 
 You should see the app from `localhost:3000`.
- 
-### Usage
-
- 
