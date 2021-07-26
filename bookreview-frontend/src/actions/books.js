@@ -1,4 +1,5 @@
 import { resetBookForm } from "./bookForm";
+import { getBookOwnerships } from "./bookOwnerships";
 
 export const fetchBooksSuccess = books => {
     return {
@@ -15,10 +16,28 @@ export const addBook = book => {
 }
 
 export const getAllBooks = () => {
-    
+    return dispatch => {
+        dispatch({type: 'LOADING'})
+
+        return (
+            fetch("http://localhost:3000/books", {
+                credentials: "include",
+                method: "GET",
+                headers: {"Content-Type": "application/json"}
+            })
+            .then(r => r.json())
+            .then(books => {
+                dispatch(fetchBooksSuccess(books));
+                dispatch(getBookOwnerships());
+            })
+            .catch(error => {
+                console.log("Error: ", error);
+            })
+        )
+    }
 }
 
-export const createToy = book => {
+export const createBook = book => {
     return dispatch => {
         return fetch("http://localhost:3000/books", {
             method: "POST",

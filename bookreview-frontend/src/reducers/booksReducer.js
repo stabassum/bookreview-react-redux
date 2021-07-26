@@ -30,7 +30,7 @@ export default (state = initialState, action) => {
                 currentUser: action.user,
             }
         case "GET_USER_BOOKS_SUCCESS":
-            let myBooks = actions.user.books.map(t => {
+            let myBooks = action.user.books.map(t => {
                 t.claimed = "true"
                 return t
             })
@@ -39,11 +39,11 @@ export default (state = initialState, action) => {
             }
         case "MARK_AS_CLAIMED":
             let newArray = [...state.books];
-            let userToys = [...state.userBooks]
+            let userBooks = [...state.userBooks]
 
             newArray.forEach( t => {
                 t.claimed = "false"
-                userBooks.map(toy => {
+                userBooks.map(book => {
                     if(t.id === book.id){
                         t.claimed = "true";
                     }
