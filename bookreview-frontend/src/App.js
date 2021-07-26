@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+import { connect } from 'react-redux';
 import Home from './components/Home';
 import About from './components/About';
 import NavBar from './components/NavBar';
@@ -8,12 +9,20 @@ import Footer from './components/Footer';
 import BookForm from './components/BookForm';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Logout from './components/Logout';
+import { getAllBooks } from './actions/books';
 
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 class App extends React.Component {
 
+  // componentDidMount(){
+  //   this.props.getAllBooks();
+  // }
+
   render(){
+
+    let loggedIn = this.props.booksReducer.currentUser.username
     
     return (
       <div className="App">
@@ -24,11 +33,9 @@ class App extends React.Component {
           
           <h3>Book Review!</h3>
        
-          <Login/>
-          
-          <Signup/>
+         { loggedIn ? <Logout/> : <div> <Login/> <Signup/> </div>}
         
-          <BookForm/>
+         { loggedIn ? <BookForm/> : ""}
 
           <Switch>
             <Route exact path="/" component={Home}/>
@@ -47,4 +54,10 @@ class App extends React.Component {
 
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    booksReducer: state.booksReducer
+  }
+}
+
+export default connect(mapStateToProps, {getAllBooks})(App);
