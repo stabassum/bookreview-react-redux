@@ -1,10 +1,8 @@
-# React-Redux Portfolio Project
+# React-Redux Portfolio Project - Book Review
 This project is a Single Page Application (SPA) that uses a Rails API back-end and a JavaScript + HTML + CSS front-end per assignment specifications.
 
 ## Project File Structure
 
-# Book Review
-## README
 ### Description
 Book Review is an app with a Javascript frontend and Ruby on Rails API backend to keep track of books you have read and your review comments about the book. 
 
