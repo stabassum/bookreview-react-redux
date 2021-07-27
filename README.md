@@ -31,6 +31,19 @@ cd npm start
 
 You should see the app from `localhost:3000`.
 
+### Project Requirements:
+* The code is written in ES6 as much as possible
+* Use the 'create-react-app' generator to start your project
+* The app has one HTML page to render the react-redux application
+* There are atleast 5 stateless components
+* There are atleast 3 routes
+* The application uses react-router and proper RESTful routing
+* The application uses Redux middleware to respond to and modify state change
+* The application makes use of async actions and redux-thunk middleware to send data to and receive data from a server
+* The Rails API should handle the data persistence with a database. Use fetch() within your actions to GET and POST data from the API 
+* The clinet-side application should handle the display of data within minimal data manipulation
+* The application has minimal styling: Using CSS
+
 ```
 bookreview-react-redux
 ├── bookreview-backend
