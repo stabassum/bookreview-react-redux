@@ -1,8 +1,6 @@
 # React-Redux Portfolio Project - Book Review
 This project is a Single Page Application (SPA) that uses a Rails API back-end and a JavaScript + HTML + CSS front-end per assignment specifications.
 
-## Project File Structure
-
 ### Description
 Book Review is an application using the React-Redux framework and a Ruby on Rails API backend to keep track of book review's users have read. The application gives a user the ability to create an account and login to access full features of the application. If a user is not logged, the following pages are available for view: Home, About, and View All Book Reviews. If a user is logged in, a has the option to view book reviews submitted by that particular logged in user, and the option to add (additional) book reviews. Each book review entry can be modified (Edit or Delete). 
 
@@ -59,9 +57,6 @@ The user does not need to login to 'View All Book Reviews', as they do not need 
 The user must login to 'View My Book Reviews'. The user can create a new book review. The user can also delete an existing book review.
 
 ![Screenshot 2021-07-28 192125](https://user-images.githubusercontent.com/20411568/127408718-55729c3d-ee77-4206-8877-04f9b78861d9.png)
-
-
-
 
 ### File Structure:
 ```
