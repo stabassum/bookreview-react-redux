@@ -42,6 +42,28 @@ You should see the app from `localhost:3000`.
 * The clinet-side application should handle the display of data within minimal data manipulation
 * The application has minimal styling: Using CSS
 
+### General Screenshots
+
+The 'About' and 'Home' pages are plain static pages with general details about the application, with slightly more details in the 'Home' page. 
+
+The 'Initial Screen' that the user views is a login page, where the user can enter his/her login credentials to access all of the deatures of the application. If the user does not have login information, he/she can create an account to login.
+
+The user also has the option to Logout of the application (not shown in the rough images below).
+
+![Initial Screen](https://user-images.githubusercontent.com/20411568/127408711-8a770662-7477-4f93-9ad6-f36509090773.png)
+
+The user does not need to login to 'View All Book Reviews', as they do not need to login to view either the Home or About page.
+
+![All Reviews](https://user-images.githubusercontent.com/20411568/127408721-75b743e6-8445-48bb-92d1-6a21e3f54713.png)
+
+The user must login to 'View My Book Reviews'. The user can create a new book review. The user can also delete an existing book review.
+
+![Screenshot 2021-07-28 192125](https://user-images.githubusercontent.com/20411568/127408718-55729c3d-ee77-4206-8877-04f9b78861d9.png)
+
+
+
+
+### File Structure:
 ```
 bookreview-react-redux
 ├── bookreview-backend
